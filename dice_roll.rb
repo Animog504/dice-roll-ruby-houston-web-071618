@@ -4,5 +4,6 @@
 
 def roll
   # code goes here
-  return 1..6
+  puts 1..6
+  return 1+rand(6)
 end
